@@ -34,6 +34,8 @@ public class Producto extends Entidad {
 	public void consultar(String producto) {
 			
 			System.out.println("Consultando");
+			JLabel msj = new JLabel("Has consultado "+producto);
+			mensaje.getContentPane().add(msj);
 			// TODO: Utilizar el Frame mensaje para mostrar el nombre de lo que se ha consultado		
 		
 	}
